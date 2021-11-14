@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    /* background: url(/images/signin.svg); */
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.box{
+   width: 70%;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+    /* background:rgba(0,0,0,0,4); */
+    /* background-color: blue; */
+    /* background: ; */
+    position:absolute;
+}
+.box h1{
+    padding-left:45%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+border: 3px solid rgb(34, 34, 139);
+padding: 14px 10px;
+border-radius: 24px;
+transition:0.25x;
+}
+.box input[type="text"]:focus {
+    width: 270px;
+    border-color: #ffc400ec;
+}
+.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+.box input[type="button"]{
+    width: 150px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="button"]:hover{
+    background: #20b7ddec;
+    /* animation-duration:2s; */
+}
